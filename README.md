@@ -12,9 +12,13 @@ pnpm run dev
 主页面: src/routes/+layout.marko
 
 组件:
+
 顶部banner: src/components/TopBanner/index.marko
+
 左下信息面板: src/components/InformationPanel/index.marko
+
 左下列表: src/components/ListComponentl/index.marko
+
 右下留资表单: src/components/RetentionForm/index.marko
 
 
