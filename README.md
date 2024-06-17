@@ -1,23 +1,25 @@
-# Thanks for checking out Marko
+# Ebay frontEnd interview homework
 
-# Installation
+# 安装/运行
 
 ```
-npx @marko/create marko-app --template basic
-cd marko-app
-npm install
-npm run dev
+pnpm i
+pnpm run dev
+运行 http://localhost:3000
 ```
 
-## Overview
+# 文件位置
+主页面: src/routes/+layout.marko
 
-This project is powered by [@marko/run](https://github.com/marko-js/run).
+组件:
+顶部banner: src/components/TopBanner/index.marko
+左下信息面板: src/components/InformationPanel/index.marko
+左下列表: src/components/ListComponentl/index.marko
+右下留资表单: src/components/RetentionForm/index.marko
 
-- Run `npm run dev` to start the development server
-- Run `npm run build` to build a production-ready node.js server
-- Run `npm run preview` to run the production server
 
-## Adding Pages
+# 效果
+![image](https://github.com/kagamikuro/ebay-marko-app/assets/36278007/b0eca78e-9dcb-4fae-9c46-4f5aed32218a)
+![image](https://github.com/kagamikuro/ebay-marko-app/assets/36278007/b27021e2-37f9-4361-af80-9cc6fb969504)
 
-Pages map to the directory structure. You can add additional pages by creating files/directories under `src/routes` with `+page.marko` files.  Learn more in the [`@marko/run` docs](https://github.com/marko-js/run/#file-based-routing).
 
